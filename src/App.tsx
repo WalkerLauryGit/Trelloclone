@@ -7,18 +7,18 @@ import { AddNewItem } from './AddNewItem';
 export const App = () => {
   return (
     <AppContainer>
-      <Column text="To Do">
-        <Card text="Generate App Scaffold"/>
-      </Column>
-      <Column text="In Progress">
-        <Card text="Learn Typescript"/>
-      </Column>
-      <Column text="Done">
-        <Card text="Begin Using Static Typing"/>
-      </Column>
-      <AddNewItem toggleButtonText="+ Add a new Item" onAdd={console.log}/>
+    <Column text="To Do">
+    <Card text="Generate app scaffold" />
+    </Column>
+    <Column text="In Progress">
+    <Card text="Learn Typescript" />
+    </Column>
+    <Column text="Done">
+    <Card text="Begin to use static typing" />
+    </Column>
+    <AddNewItem toggleButtonText="+ Add another list" onAdd={console.log} />
     </AppContainer>
-  );
+    )
 }
 
 
