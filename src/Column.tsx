@@ -5,7 +5,7 @@ type ColumnProps = {
     text: string
 }
 
-export const Column: FC<ColumnProps> = ({text},children) => {
+export const Column: FC<ColumnProps> = ({text},{children}) => {
     return (
         <ColumnContainer>
             <ColumnTitle>{text}</ColumnTitle>
